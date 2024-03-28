@@ -1,21 +1,18 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Background Removal Web App</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-  </head>
-  <body>
-    <div class="center">
-      <h1 class="style">Background Image Remover</h1>
-
-      <input type="file" id="imageUpload" accept="image/*" />
-  
-      
-      <button id="removeButton" disabled>Remove Background</button>
-      <div id="resultContainer"></div>
-    </div>
-   
-
-    <script src="script.js"></script>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Background Removal Web App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="header">Background Image Remover</h1>
+    <input type="file" id="imageUpload" accept="image/*" />
+    <button id="removeButton" disabled>Remove Background</button>
+    <div id="resultContainer" class="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
 </html>
